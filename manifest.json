@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "Photobucket Fixer",
+    "description": "This extension fixes nuked Photobucket pictures.",
+    "version": "0.1",
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["jquery-3.2.1.min.js", "main.js"]
+        }
+    ]
+}
