@@ -1,5 +1,7 @@
 document.onload = $('img[src*=\'photobucket\']').each(function(element) {
-    var src = $(this).attr('src');
-    src += '~original';
-    $(this).attr('src', src);
+    if ($(this).attr('src').indexOf('~original') === -1) {
+        var src = $(this).attr('src');
+        src += '~original';
+        $(this).attr('src', src);
+    }
 });
