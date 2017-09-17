@@ -3,7 +3,7 @@
 
     "name": "Photobucket Fixer",
     "description": "This extension fixes nuked Photobucket pictures.",
-    "version": "0.1",
+    "version": "0.2",
 
     "permissions": [
         "tabs"
