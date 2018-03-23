@@ -2,9 +2,9 @@
     "manifest_version": 2,
 
     "name": "Photobucket Embedded Image Fix",
-    "short_name": "PB Embed Fix"
+    "short_name": "PB Embed Fix",
     "description": "This extension fixes nuked Photobucket pictures.",
-    "version": "0.3",
+    "version": "0.7",
 
     "permissions": [
         "tabs"
