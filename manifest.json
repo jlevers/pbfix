@@ -4,7 +4,7 @@
     "name": "Photobucket Embedded Image Fix",
     "short_name": "PB Embed Fix",
     "description": "This extension fixes nuked Photobucket pictures.",
-    "version": "0.7",
+    "version": "0.8",
 
     "permissions": [
         "tabs"
@@ -13,6 +13,7 @@
     "content_scripts": [
         {
             "matches": ["*://*/*"],
+            "exclude_matches": ["*://photobucket.com/*"],
             "js": ["jquery-3.2.1.min.js", "main.js"]
         }
     ]
